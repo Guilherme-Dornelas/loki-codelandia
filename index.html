@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+    <title>LOKI</title>
+</head>
+<body>
+
+    <main>
+        <div class="box-title">
+            <h3 style="color: white; font-style: normal; text-transform: capitalize; line-height: 
+            24.3px;" >está disponivel agora!</h3>
+            <img src="img/LOKI.png" alt="loki">
+        </div>
+
+        <div style="display: flex;  gap: 80px;">
+            <div>
+                <img class="banner-loki" src="https://m.media-amazon.com/images/I/81QlgQbZnDL._AC_UF1000,1000_QL80_.jpg" style="width: 184px; height:267px; border-radius: 20px;" alt="serie">
+            </div>
+            <div class="contant">
+                <div>
+                    <p style="font-size: 20px;" class="sinopse" id="sinopse">Em “Loki” da Marvel Studios, o vilão mercurial Loki (Tom Hiddleston) <br> retoma seu papel como o Deus do Mal em uma nova <br> série que ocorre após <br> os eventos de “Vingadores: Endgame”. </p>
+                </div>
+                <div>
+
+                    <div class="container-descricao" style="display: flex; flex-direction: column;">
+                        <div class="time">
+                            <div style="display: flex; gap: 10px;">
+                                <svg  xmlns="http://www.w3.org/2000/svg" width="25" height="25" title="Tempo da serie" color="white" fill="currentColor" class="bi bi-clock" viewBox="0 0 16 16">
+                                    <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                                    <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                                </svg>
+                                <h5 class="minu" id="minu"></h5>
+                            </div>
+
+                            <div class="estrela-box">
+                                <img src="img/star.png" class="estrela" title="avaliaçao" alt="estrela de avaliaçao">
+                                <img src="img/star.png" class="estrela" title="avaliaçao" alt="estrela de avaliaçao">
+                                <img src="img/star.png" class="estrela" title="avaliaçao" alt="estrela de avaliaçao">
+                                <img src="img/star.png" class="estrela" title="avaliaçao" alt="estrela de avaliaçao">
+                                <img src="img/star.png" class="estrela" title="avaliaçao" alt="estrela de avaliaçao">
+                            </div>
+                            <h5 style="margin-right:80px ;" class="ano">2023</h5>
+                           
+                      </div>
+                    <div class="box-btn" style="display: flex; gap: 20px; margin-top: 50px;">
+                       <a href="https://www.youtube.com/watch?v=wmlcMkj2H70" target="_blank"> <button class="btn-assistir">assistir agora</button></a>
+                        <button data-bs-toggle="modal" data-bs-target="#staticBackdrop" class="btn-trailer" id="btnTrailer">Trailer</button>
+                    </div><br>
+                </div><!--fim da div pai da descriçao da serie-->
+
+            </div><!-- fim da div pai contant-->
+        </div>
+    </main>
+    
+<div id="modal" class="modal">
+    <div class="box-video" style="width: auto; height: auto; border-radius: 10px; overflow: hidden;">
+        <div>
+            <button id="btnClose" title="Fechar" class="btn-fechar"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+              </svg></button>
+        </div>
+        <iframe width="660" height="390" src="https://www.youtube.com/embed/xdBWrkcmMwU?si=0A9wheHvbuB1QPLQ" id="Video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
+
+</div>
+
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

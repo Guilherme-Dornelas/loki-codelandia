@@ -1,0 +1,177 @@
+@media screen and (max-width: 720px) {
+   
+    body{
+        overflow: hidden;
+    }
+    main{
+    width: 100vw;
+    height: 100vh;
+
+   }
+  
+    .box-title{
+      position: fixed;
+      top: 25px;
+     
+   } 
+
+   .sinopse{
+    font-size: 14px;
+    margin-left: 5px;
+    margin-bottom: 30px;
+   }
+
+   .estrela{
+    width: 25.67px;
+    height: 25.85px;
+   }
+
+   .minu{
+    font-size: 16px;
+   }
+
+   .ano{
+    font-size: 16px;
+    margin-right: 0px;
+   }
+
+   .banner-loki{
+    display: none;
+   }
+   .contant{
+    width: 100%;
+    height: auto;
+    background-color: #19191fc3;
+    border-radius: 30px 30px 0px 0px;
+    padding: 10px;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+   }
+
+   .btn-trailer{
+    padding: 
+    8px, 16px, 8px, 16px;
+   }
+  
+
+  .box-btn{
+    width: 100%;
+    border-bottom: #cecece solid 2px;
+  }
+
+  .box-btn button{
+    margin-bottom: 30px;
+    width: 150px;
+    height: 35px;
+  }
+
+   .time{
+    width: 100%;
+    padding: 5px;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 40px;
+    display: none;
+    
+   }
+
+   .time svg{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+   }
+
+   .estrela-box{
+    display: flex;
+
+   }
+   
+   .box-video iframe{
+    width: 100vw;
+    height: 300px;
+   }
+
+   .btn-fechar{
+    margin-left: 88%;
+   }
+
+
+}
+
+
+@media screen and (max-width: 540px){
+
+    body{
+        overflow: hidden;
+    }
+    .box-title{
+    margin-top: 30px;
+  }    
+
+  .time{
+    top: 45%;
+    display: flex;
+    left: 5%;
+  } 
+
+  .contant{
+    width: 100vw;
+    height: auto;
+    margin-bottom: -28px;
+  }
+}
+
+@media screen and (max-width: 360px){
+
+    body{
+        overflow: hidden;
+    }
+    .box-title{
+    margin-top: 30px;
+  }    
+
+  .time{
+    top: 45%;
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    gap: 10px;
+  } 
+
+  .time{
+    display: none;
+  }
+
+  .minu{
+    font-size: 15px;
+  }
+
+  .contant{
+    width: 100vw;
+    height: auto;
+    margin-bottom: -28px;
+  }
+
+  .box-btn button{
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 376px){
+.time{
+  top: 40%;
+  gap: 20px;
+  width: auto;
+}
+
+.estrela-box{
+  gap: 10px;
+}
+ 
+}
+
